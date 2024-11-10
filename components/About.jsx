@@ -24,6 +24,10 @@ const infoData = [
         icon: <HomeIcon size={20}/>,
         text: "Block#18, Gulistan e Jouhar, Karachi, Sindh, Pakistan "
     },
+    {
+        icon: <MailIcon size={20}/>,
+        text: "zh7774440@gmail.com"
+    },
 ]
 
 const qualificationData = [
