@@ -6,7 +6,7 @@ import { User2, MailIcon, HomeIcon, PhoneCall, GraduationCap, Calendar, Briefcas
 const infoData = [
     {
         icon: <User2 size={20}/>,
-        text: "Laia Siddique"
+        text: "Zeeshan Haider"
     },
     {
         icon: <PhoneCall size={20}/>,
@@ -134,7 +134,7 @@ const About = () => {
     <div className='flex flex-col xl:flex-row'>
         {/* images */}
         <div className='hidden xl:flex flex-1 relative'>
-            <DevImg containerStyles='bg-about_Shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/LaibaSiddique.jpg'/>
+            <DevImg containerStyles='bg-about_Shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/ZeeshanHaider.jpg'/>
         </div>
         {/* tabs */}
         <div className='flex-1'>
