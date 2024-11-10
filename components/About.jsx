@@ -6,7 +6,7 @@ import { User2, MailIcon, HomeIcon, PhoneCall, GraduationCap, Calendar, Briefcas
 const infoData = [
     {
         icon: <User2 size={20}/>,
-        text: "Zeeshan Haider"
+        text: "Laia Siddique"
     },
     {
         icon: <PhoneCall size={20}/>,
@@ -52,22 +52,22 @@ const qualificationData = [
         ]
     },
     {
-        title: "experience",
+        title: "courses",
         data:[
             {
-                company: "Abc",
-                role: "Software Engineer",
-                year: "2024-2028"
+                company: "SMIT",
+                role: "Web And Mobile Development",
+                year: "2024-2025"
             },
             {
-                company: "Xyz",
-                role: "Senior developer",
-                year: "2022-2024"
+                company: "PITP (NEDUET)",
+                role: "Graphic Designing",
+                year: "oct to nov -2024"
             },
             {
-                company: "Corporation Manager",
-                role: "lead developer",
-                year: "2020-2022"
+                company: "Bano Qabil",
+                role: "Digital Marketing",
+                year: "2024-2024- decmber to february "
             },
         ]
     }
@@ -134,7 +134,7 @@ const About = () => {
     <div className='flex flex-col xl:flex-row'>
         {/* images */}
         <div className='hidden xl:flex flex-1 relative'>
-            <DevImg containerStyles='bg-about_Shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/ZeeshanHaider.jpg'/>
+            <DevImg containerStyles='bg-about_Shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/LaibaSiddique.jpg'/>
         </div>
         {/* tabs */}
         <div className='flex-1'>
@@ -179,12 +179,12 @@ const About = () => {
                                     <div className='flex gap-x-4 items-center text-[22px] text-primary'>
                                         <Briefcase/>
                                         <h4 className='capitalize font-medium'>
-                                            {getData(qualificationData,'experience').title}
+                                            {getData(qualificationData,'courses').title}
                                         </h4>
                                     </div>
                                     {/* list */}
                                     <div className='flex flex-col gap-y-8'>
-                                        {getData(qualificationData, 'experience').data.map((item,index)=>{
+                                        {getData(qualificationData, 'courses').data.map((item,index)=>{
                                             const {company,role,year} = item
                                             return(
                                                 <div className='flex gap-x-8 group' key={index}>

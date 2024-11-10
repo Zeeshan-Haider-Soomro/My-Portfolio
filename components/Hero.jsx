@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px] ">
               Web Developer
             </div>
-            <h1 className="h1 mb-4">Hello, my name is Zeeshan Haider</h1>
+            <h1 className="h1 mb-4">Hello, my name is Laiba Siddique</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Brief description with insights into myself, my vocational
               journey,and what I engage in professionally.
@@ -53,34 +53,34 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[24%] -left-[5rem]"
               icon={<RiBriefcase4Fill />}
-              endCountNum={3}
-              badgeText="Years Of Experience"
+              endCountNum={6}
+              badgeText="Months of Experience in Learning"
             />
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
               icon={<RiTodoFill />}
-              endCountNum={6}
-              endCountText="k"
-              badgeText="Finished Projects"
+              endCountNum={50}
+              endCountText=""
+              badgeText="Mini Finished Projects"
             />
             <Badge
               containerStyles="absolute top-[55%] -right-8"
               icon={<RiTeamFill />}
-              endCountNum={9}
-              endCountText="k"
-              badgeText="Happy Clients"
+              endCountNum={0}
+              endCountText=""
+              badgeText="Hunt Client"
             />
 
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark  w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg
               containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-              imgSrc={"/ZeeshanPic.png"}
+              imgSrc={"/LaibaSiddique.jpg"}
             />
           </div>
         </div>
 
         <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce2">
-          <RiArrowDownSLine className="text-3xl text-primary animate-bounce" />
+          <RiArrowDownSFill className="text-3xl text-primary animate-bounce" />
         </div>
       </div>
     </section>
