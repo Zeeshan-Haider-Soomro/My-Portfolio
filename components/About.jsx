@@ -1,7 +1,7 @@
 import DevImg from "./DevImg"
 import Image from "next/image"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
-import { User2, MailIcon, HomeIcon, PhoneCall, GraduationCap, Calendar, Briefcase, Section } from "lucide-react"
+import { User2, MailIcon, HomeIcon, PhoneCall, GraduationCap, Calendar, Briefcase, Section, SlackIcon, } from "lucide-react"
 
 const infoData = [
     {
@@ -115,6 +115,12 @@ const skillData = [
             {
                 imgPath: "/assets/about/notion.svg",
             },
+            {
+                imgPath: "/assets/about/illustratorIcon.avif",
+            },
+            {
+                imgPath: "/assets/about/photoShopIcon.png",
+            },
         ],
     },
 ]
@@ -149,7 +155,7 @@ const About = () => {
                     {/* personal */}
                     <TabsContent value='personal'>
                         <div className='text-center xl:text-left'>
-                            <h3 className='h3 mb-4'>heading</h3>
+                            <h3 className='h3 mb-4'>Get to Know Me</h3>
                             <p className='subtitle max-w-xl mx-auto xl:mx-0'>I specialize in crafting intuitive websites with cutting-edge technology, delivery dyanamic and engaging user experiences.   </p>
                             {/* icons */}
                             <div className='grid xl:grid-cols-2 gap-2 mb-12'>
@@ -177,7 +183,7 @@ const About = () => {
                                 {/* experience  */}
                                 <div className='flex flex-col gap-y-6'>
                                     <div className='flex gap-x-4 items-center text-[22px] text-primary'>
-                                        <Briefcase/>
+                                        <SlackIcon/>
                                         <h4 className='capitalize font-medium'>
                                             {getData(qualificationData,'courses').title}
                                         </h4>

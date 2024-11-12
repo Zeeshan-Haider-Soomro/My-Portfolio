@@ -4,23 +4,23 @@ import Link from "next/link"
 
 const icons = [
   {
-    path: '/',
+    path: 'https://www.youtube.com/channel/UCyyN-92o0FFpDNDHwwMY2xg',
     name: <RiYoutubeFill/>,
   },
   {
-    path: '/',
+    path: 'https://www.linkedin.com/in/zeeshan-haider-b12338288/',
     name: <RiLinkedinFill/>,
   },
   {
-    path: '/',
+    path: 'https://github.com/Zeeshan-Haider-Soomro',
     name: <RiGithubFill/>,
   },
   {
-    path: '/',
+    path: 'https://www.facebook.com/zeexhan.haider.73',
     name: <RiFacebookFill/>,
   },
   {
-    path: '/',
+    path: 'https://www.instagram.com/zeeshanhaider.soomro/',
     name: <RiInstagramFill/>,
   },
 ]

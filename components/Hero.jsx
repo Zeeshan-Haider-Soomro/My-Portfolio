@@ -15,6 +15,9 @@ import {
 import DevImg from "./DevImg";
 import Badge from "./Badge";
 import Socials from "./Socials";
+import Typewriter from 'typewriter-effect';
+
+
 
 const Hero = () => {
   return (
@@ -22,8 +25,14 @@ const Hero = () => {
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
-            <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px] ">
-              Web Developer
+            <div className="text-xl uppercase font-semibold mb-4 text-primary tracking-[4px] ">
+            <Typewriter
+  options={{
+    strings: ['I Am Developer', 'I Am Web Developer', 'I Am Web Designer', 'I Am Grapic Designer', 'I Am App Developer' ],
+    autoStart: true,
+    loop: true,
+  }}
+/>
             </div>
             <h1 className="h1 mb-4">Hello, my name is Zeeshan Haider</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
@@ -37,9 +46,12 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
+              {/* <Link href="/ZeeshanResume.png" download='/ZeeshanResume.png'> */}
               <Button variant="secondary" className="gap-x-2">
-                Download CV <Download size={18} />
+                <a href="/ZeeshanResume.png" download='/ZeeshanResume.png'>Download CV</a>
+                 <Download size={18} />
               </Button>
+              {/* </Link> */}
             </div>
 
           {/* socials */}
