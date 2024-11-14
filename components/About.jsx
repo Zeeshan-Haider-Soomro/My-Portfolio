@@ -17,6 +17,10 @@ const infoData = [
         text: "Born on 17 June, 2003"
     },
     {
+        icon: <MailIcon size={20}/>,
+        text: "zh7774440@gmail.com"
+    },
+    {
         icon: <GraduationCap size={20}/>,
         text: "UnderGraduation on Software Engineer"
     },
@@ -24,10 +28,7 @@ const infoData = [
         icon: <HomeIcon size={20}/>,
         text: "Block#18, Gulistan e Jouhar, Karachi, Sindh, Pakistan "
     },
-    {
-        icon: <MailIcon size={20}/>,
-        text: "zh7774440@gmail.com"
-    },
+  
 ]
 
 const qualificationData = [
@@ -136,7 +137,7 @@ const About = () => {
   return (
  <section className="xl:h-[860px] pb-12 xl:py-24 ">
   <div className="container mx-auto">
-    <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">About Me</h2>
+    <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto p-16">About Me</h2>
     <div className='flex flex-col xl:flex-row'>
         {/* images */}
         <div className='hidden xl:flex flex-1 relative'>
@@ -151,7 +152,7 @@ const About = () => {
                     <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>Skills</TabsTrigger>
                 </TabsList>
                 {/* tabs content */}
-                <div className='text-lg mt-12 xl:mt-8'>
+                <div className='text-lg mt-12 xl:mt-8 p-5'>
                     {/* personal */}
                     <TabsContent value='personal'>
                         <div className='text-center xl:text-left'>
@@ -176,7 +177,7 @@ const About = () => {
                     </TabsContent>
                     {/* qualification */}
                     <TabsContent value='qualifications'>
-                        <div>
+                        <div className="p-5">
                             <h3 className='h3 mb-8 text-center xl:text-left'>My Awesome Journey </h3>
                             {/* experience and eduction wrapper */}
                             <div className='grid md:grid-cols-2 gap-y-8'>

@@ -10,15 +10,39 @@ import ProjectCard from '/components/ProjectCard';
 const projectData = [
   {
     image: '/assets/work/chawkbazarweb.png',
-    category: 'react js',
+    category: 'React.Js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "React Js Website",
     link: 'https://figam-test-zhsk.netlify.app/',
     github: "https://github.com/Zeeshan-Haider-Soomro/Website-Test-Smit-React.Js.git",
   },
   {
+    image: '/assets/work/NextJsFigma.png',
+    category: 'Next.Js',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "Next JS Website",
+    link: 'https://giaic-website-next-tailwind.vercel.app/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Next.Js-Figma-Giaic.git",
+  },
+  {
+    image: '/assets/work/DeliveryWebsite.png',
+    category: 'React.Js',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "React Js Website",
+    link: 'https://delivery-figma-react-js.netlify.app/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Delivery-Figma-From-React.js.git",
+  },
+  {
+    image: '/assets/work/WeatherApi.png',
+    category: 'Javascript',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "Weather Api ",
+    link: 'https://zeeshan-haider-soomro.github.io/Weather-Application-/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Weather-Application-.git",
+  },
+  {
     image: '/assets/work/ZeeshanCollection.png',
-    category: 'react js',
+    category: 'React.Js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "React Js Website",
     link: 'https://fake-api-store-zhs.vercel.app/',
@@ -26,24 +50,15 @@ const projectData = [
   },
   {
     image: '/assets/work/ReactPortfolio.png',
-    category: 'react js',
+    category: 'React.Js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "React Js Portfolio",
     link: 'https://porfolio-figma-react-js.netlify.app/',
     github: "https://github.com/Zeeshan-Haider-Soomro/Portfolio-Figma-From-React.git",
   },
   {
-    image: '/assets/work/NextJsFigma.png',
-    category: 'next js',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
-    name: "Next JS Website",
-    link: 'https://giaic-website-next-tailwind.vercel.app/',
-    github: "https://github.com/Zeeshan-Haider-Soomro/Next.Js-Figma-Giaic.git",
-  },
-
-  {
     image: '/assets/work/SmootieWeb.png',
-    category: 'react js',
+    category: 'React.Js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "React Js Website",
     link: 'https://smoothie-figma-zhsk.netlify.app/',
@@ -51,23 +66,15 @@ const projectData = [
   },
   {
     image: '/assets/work/CardDetailPage.png',
-    category: 'react js',
+    category: 'React.Js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "React Js Website",
     link: 'https://project01-zhsk.netlify.app/',
     github: "https://github.com/Zeeshan-Haider-Soomro/Card-with-detail-page.git",
   },
   {
-    image: '/assets/work/DeliveryWebsite.png',
-    category: 'react js',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
-    name: "React Js Website",
-    link: 'https://delivery-figma-react-js.netlify.app/',
-    github: "https://github.com/Zeeshan-Haider-Soomro/Delivery-Figma-From-React.js.git",
-  },
-  {
     image: '/assets/work/FoodDeliveryWeb.png',
-    category: 'react js',
+    category: 'React.Js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "React Js Website",
     link: 'https://food-delivery-reatjs-zhsk.netlify.app/',
@@ -75,7 +82,7 @@ const projectData = [
   },
   {
     image: '/assets/work/GithubProfiler.png',
-    category: 'react js',
+    category: 'React.Js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "Api Fetch",
     link: 'https://zeeshan-haider-soomro.github.io/Search-Github-User-App---by-API-Fetch/',
@@ -83,7 +90,7 @@ const projectData = [
   },
   {
     image: '/assets/work/FireBase.png',
-    category: 'react js',
+    category: 'Javascript',
     description: "SignUp, SignIn, Dashboard, Logout Fucnalities",
     name: "FireBase",
     link: 'https://zeeshan-haider-soomro.github.io/SignUp-LogIn-Dashboard-With-Firebase/index.html',
@@ -91,20 +98,77 @@ const projectData = [
   },
   {
     image: '/assets/work/SaylaniForm.png',
-    category: 'react js',
+    category: 'Javascript',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "Generate Id Card",
     link: 'https://zeeshan-haider-soomro.github.io/Saylani-Registration-Form-/',
     github: "https://github.com/Zeeshan-Haider-Soomro/Saylani-Registration-Form-.git",
   },
   {
-    image: '/assets/work/WeatherApi.png',
-    category: 'react js',
+    image: '/assets/work/StopWatch.png',
+    category: 'Javascript',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
-    name: "Weather Api ",
-    link: 'https://zeeshan-haider-soomro.github.io/Weather-Application-/',
-    github: "https://github.com/Zeeshan-Haider-Soomro/Weather-Application-.git",
+    name: "Stop Watch",
+    link: 'https://zeeshan-haider-soomro.github.io/Stop-Watch-By-JavaScript/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Stop-Watch-By-JavaScript.git",
   },
+  {
+    image: '/assets/work/Drag&Drop.png',
+    category: 'Javascript',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "Drag & Drop",
+    link: 'https://zeeshan-haider-soomro.github.io/Drag-and-Drop-By-javascript-/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Drag-and-Drop-By-javascript-.git",
+  },
+  {
+    image: '/assets/work/horizontalSlider.png',
+    category: 'Javascript',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "Horizontal Slider using mouse",
+    link: 'https://zeeshan-haider-soomro.github.io/Horizontal-Slider-Using-Mouse-Scroller-By-JavaScript-/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Horizontal-Slider-Using-Mouse-Scroller-By-JavaScript-.git",
+  },
+  {
+    image: '/assets/work/sliderBarModal.png',
+    category: 'Javascript',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "Side Bar & Modal",
+    link: 'https://zeeshan-haider-soomro.github.io/Side-Bar-And-Modal-By-JavaScript/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Side-Bar-And-Modal-By-JavaScript.git",
+  },
+  {
+    image: '/assets/work/tictactoegame.png',
+    category: 'Javascript',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "Tic Tac toe Game",
+    link: 'https://zeeshan-haider-soomro.github.io/Tic-Tac-Toe-Game-By-JavaScript/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Tic-Tac-Toe-Game-By-JavaScript.git",
+  },
+  {
+    image: '/assets/work/colorGenerator.png',
+    category: 'Javascript',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "Color Generator App",
+    link: 'https://zeeshan-haider-soomro.github.io/Generate-Random-Color-App-By-JavaScript/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Generate-Random-Color-App-By-JavaScript.git",
+  },
+  {
+    image: '/assets/work/randompassword.png',
+    category: 'Javascript',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "Random Password Generator App",
+    link: 'https://zeeshan-haider-soomro.github.io/Random-Password-Generator-Using-JavaScript-/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Random-Password-Generator-Using-JavaScript-.git",
+  },
+  {
+    image: '/assets/work/speechConverter.png',
+    category: 'Javascript',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "Text To Speech Converter",
+    link: 'https://zeeshan-haider-soomro.github.io/Text-to-Speech-Converter-By-JavaScript-/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Text-to-Speech-Converter-By-JavaScript-.git",
+  },
+
 
 
 ];
@@ -119,14 +183,14 @@ const Work = () => {
           <Link href='/projects'><Button>All Projects</Button></Link>
         </div>
 
-        <div className="xl:max-w-[900px] xl:absolute right-0 top-0">
+        <div className="xl:max-w-[900px] xl:absolute right-0 top-0 p-5">
           <Swiper className="h-[480px]" slidesPreview={1} breakpoints={{
             640:{
                 slidesPerView:2
             }
           }}  spaceBetween={30} modules={[Pagination]} pagination={{clickable:true}}>
             
-            {projectData.slice(0).map((project, index) => {
+            {projectData.slice(0,4).map((project, index) => {
                 return (
               <SwiperSlide key={index}>
                 <ProjectCard  project={project} />
