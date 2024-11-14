@@ -91,7 +91,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="md:flex absolute left-2/4 bottom-8 xl:bottom-12 animate-bounce2 ">
+        <div className="md:flex absolute left-1/2 bottom-0 xl:bottom-12 animate-bounce2 ">
           <RiArrowDownSFill className="text-3xl text-primary animate-bounce" />
         </div>
       </div>
