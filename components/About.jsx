@@ -141,7 +141,7 @@ const About = () => {
     <div className='flex flex-col xl:flex-row'>
         {/* images */}
         <div className='hidden xl:flex flex-1 relative'>
-            <DevImg containerStyles='bg-about_Shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/ZeeshanHaider.jpg'/>
+            <DevImg containerStyles=' bg-about_Shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/ZeeshanHaiderPici-removebg-preview.png'/>
         </div>
         {/* tabs */}
         <div className='flex-1'>
