@@ -175,15 +175,15 @@ const projectData = [
 
 const Work = () => {
   return (
-    <section className="relative mb-12 xl:mb-48">
-      <div className="container mx-auto">
-        <div className=" max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
+    <section className="relative max-w-[1250px] m-auto mb-12 xl:mb-48 ">
+      <div className="mx-auto xl:p-5">
+        <div className=" max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start ">
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi nobis quas nemo, eum nam!</p>
           <Link href='/projects'><Button>All Projects</Button></Link>
         </div>
 
-        <div className="xl:max-w-[900px] xl:absolute right-0 top-0 p-5">
+        <div className="xl:max-w-[800px] xl:absolute right-0 top-0 p-5">
           <Swiper className="h-[480px]" slidesPreview={1} breakpoints={{
             640:{
                 slidesPerView:2

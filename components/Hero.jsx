@@ -34,7 +34,7 @@ const Hero = () => {
   }}
 />
             </div>
-            <h1 className="h1 mb-4">Hello, my name is Zeeshan Haider</h1>
+            <h1 className="text-5xl font-bold mb-4 xl:leading-[60px] tracking-[-2px]">Hello, I'm  Zeeshan Haider</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Brief description with insights into myself, my vocational
               journey,and what I engage in professionally.
@@ -91,7 +91,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="md:flex absolute left-1/2 bottom-0 xl:bottom-12 animate-bounce2 ">
+        <div className="md:flex absolute left-1/2 bottom-0 xl:bottom-12 hidden">
           <RiArrowDownSFill className="text-3xl text-primary animate-bounce" />
         </div>
       </div>

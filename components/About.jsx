@@ -91,7 +91,10 @@ const skillData = [
                 name: "Next.js",
             },
             {
-                name: "Front-end Development",
+                name: "Front-End Web Developer",
+            },
+            {
+                name: "Learning Back-End Developer",
             },
             {
                 name: "Adobe Illustrator",
@@ -261,8 +264,8 @@ const About = () => {
                                 <div>
                                     {getData(skillData, 'skills').data.map((item,index)=>{
                                         const {name} = item
-                                        return <div className='w-2/4 text-center xl:text-left mx-auto xl:mx-0' key={index}>
-                                            <div className='font-medium'>{name}</div>
+                                        return <div className='w-2/4 text-center xl:text-left mx-auto ' key={index}>
+                                            <div className='font-medium '>{`◾ ${name}`}</div>
                                         </div>
                                     })}
                                 </div>
@@ -276,7 +279,7 @@ const About = () => {
                                 <div className='flex gap-x-8 justify-center xl:justify-start'>
                                     {getData(skillData, 'tools').data.map((item,index)=>{
                                         const {imgPath} = item
-                                        return <div key={index}>
+                                        return <div className="" key={index}>
                                             <Image src={imgPath} width={48} height={48} alt='' priority/>
                                         </div>
                                     })}
