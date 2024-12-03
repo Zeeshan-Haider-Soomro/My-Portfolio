@@ -7,7 +7,7 @@ const Logo = () => {
     
     <Link href='/'>
     {/* <Image size='100px' src='/zeeshanLogo.png' width={54} height={54} priority alt=""/> */}
-    <h1 className="text-3xl m-3 ">Portfolio</h1>
+    <h1 className="text-3xl font-medium m-3">Portfolio</h1>
     
     </Link>
     </div>

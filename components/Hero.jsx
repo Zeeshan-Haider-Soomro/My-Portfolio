@@ -48,7 +48,7 @@ const Hero = () => {
               </Link>
               {/* <Link href="/ZeeshanResume.png" download='/ZeeshanResume.png'> */}
               <Button variant="secondary" className="gap-x-2">
-                <a href="/ZeeshanResume.png" download='/ZeeshanResume.png'>Download CV</a>
+                <a href="/ZeeshanHaiderResume.pdf" download='/ZeeshanHaiderResume.pdf'>Download CV</a>
                  <Download size={18} />
               </Button>
               {/* </Link> */}
