@@ -6,9 +6,9 @@ import Link from 'next/link';
 
 const ProjectCard = ({ project }) => {
   return (
-    <Card>
+    <Card >
       <CardHeader className="p-0">
-        <div className="relative w-full h-[300px] flex justify-center bg-tertiary dark:bg-secondary/40 xl:bg-work_project_bg_light xl:dark:bg-work_project_bg_dark xl:bg-[110%] xl:bg-no-repeat overflow-hidden group">
+        <div className="relative w-full h-[250px] flex justify-center bg-tertiary dark:bg-secondary/40 xl:bg-work_project_bg_light xl:dark:bg-work_project_bg_dark xl:bg-[110%] xl:bg-no-repeat overflow-hidden group">
 
           <Image
             className="absolute bottom-0 shadow-2xl"
