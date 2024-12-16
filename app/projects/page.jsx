@@ -14,6 +14,22 @@ const projectData = [
     github: "https://github.com/Zeeshan-Haider-Soomro/Website-Test-Smit-React.Js.git",
   },
   {
+    image: '/assets/work/ProductStore.png',
+    category: 'React.Js',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "React Js Website",
+    link: 'https://product-store-react-js.vercel.app/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Product-Store-React.Js.git",
+  },
+  {
+    image: '/assets/work/Furniro.png',
+    category: 'Next.Js',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "React Js Website",
+    link: 'https://giaic-2nd-quater-hackathon-from-next-js-iue8.vercel.app/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/Giaic-2nd-Quater-Hackathon-From-Next-Js.git",
+  },
+  {
     image: '/assets/work/NextJsFigma.png',
     category: 'Next.Js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
