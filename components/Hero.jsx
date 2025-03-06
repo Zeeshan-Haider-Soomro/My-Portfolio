@@ -63,20 +63,20 @@ const Hero = () => {
 
           <div className="hidden xl:flex relative">
             <Badge
-              containerStyles="absolute top-[24%] -left-[5rem]"
+              containerStyles="absolute top-[14%] -left-[12rem]"
               icon={<RiBriefcase4Fill />}
-              endCountNum={8}
+              endCountNum={14}
               badgeText="Months of Experience in Learning"
             />
             <Badge
-              containerStyles="absolute top-[80%] -left-[1rem]"
+              containerStyles="absolute top-[80%] -left-[9rem]"
               icon={<RiTodoFill />}
               endCountNum={50}
               endCountText=""
               badgeText="Mini Finished Projects"
             />
             <Badge
-              containerStyles="absolute top-[55%] -right-8"
+              containerStyles="absolute top-[55%] -right-[5rem]"
               icon={<RiTeamFill />}
               endCountNum={2}
               endCountText="k"
