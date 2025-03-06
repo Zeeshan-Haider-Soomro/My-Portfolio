@@ -82,11 +82,12 @@ const Hero = () => {
               endCountText="k"
               badgeText="LinkedIn Followers"
             />
-
-            <div className="bg-hero_shape2_light  dark:bg-hero_shape2_dark  w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
+            {/* bg-hero_shape2_light  dark:bg-hero_shape2_dark */}
+            <div className="w-[500px] h-[500px] bg-no-repeat absolute -top-8 -right-4"></div>
             <DevImg
-              containerStyles="left-[-13px] w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
+              containerStyles="right-[50px] w-[400px] h-[400px] bg-no-repeat relative bg-bottom"
               imgSrc={"/Zeeshan_Zhsk.png"}
+              
             />
           </div>
         </div>

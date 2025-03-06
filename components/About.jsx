@@ -144,11 +144,12 @@ const About = () => {
     <div className='flex flex-col xl:flex-row'>
         {/* images */}
         <div className='hidden xl:flex flex-1 relative'>
-            <DevImg containerStyles=' bg-about_Shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/ZeeshanHaiderPici-removebg-preview.png'/>
+            {/* bg-about_Shape_light dark:bg-about_shape_dark */}
+            <DevImg containerStyles='w-[405px] h-[505px] bg-no-repeat relative' imgSrc='/AboutPhoto.jpg'/>
         </div>
         {/* tabs */}
         <div className='flex-1'>
-            <Tabs defaulValue='personal'>
+            <Tabs defaultValue='personal'>
                 <TabsList className='w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none'>
                     <TabsTrigger className='w-[162px] xl:w-auto' value='personal'>Personal Info</TabsTrigger>
                     <TabsTrigger className='w-[162px] xl:w-auto' value='qualifications'>Qualification</TabsTrigger>
