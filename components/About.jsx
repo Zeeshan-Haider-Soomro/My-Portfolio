@@ -145,7 +145,7 @@ const About = () => {
         {/* images */}
         <div className='hidden xl:flex flex-1 relative'>
             {/* bg-about_Shape_light dark:bg-about_shape_dark */}
-            <DevImg containerStyles='w-[405px] h-[505px] bg-no-repeat relative' imgSrc='/AboutPhoto.jpg'/>
+            <DevImg containerStyles='w-[355px] h-[455px] -right-[50px] bg-no-repeat relative' imgSrc='/AboutPhoto.jpg'/>
         </div>
         {/* tabs */}
         <div className='flex-1'>
