@@ -58,10 +58,10 @@ const Hero = () => {
           <Socials
               containerStyles="flex gap-x-6 mx-auto xl:mx-0"
               iconsStyles="text-foreground text-[32px] hover:text-primary transition-all "
-            />
+              />
           </div>
 
-          <div className="hidden xl:flex relative">
+          <div className="hidden xl:flex -left-12 relative">
             <Badge
               containerStyles="absolute top-[14%] -left-[12rem]"
               icon={<RiBriefcase4Fill />}
@@ -76,7 +76,7 @@ const Hero = () => {
               badgeText="Mini Finished Projects"
             />
             <Badge
-              containerStyles="absolute top-[55%] -right-[5rem]"
+              containerStyles="absolute top-[55%] -right-[4rem]"
               icon={<RiTeamFill />}
               endCountNum={2}
               endCountText="k"
@@ -92,7 +92,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="md:flex absolute left-1/2 bottom-0 xl:bottom-12 hidden">
+        <div className="md:flex absolute left-1/2 bottom-0 xl:bottom-0 hidden">
           <RiArrowDownSFill className="text-3xl text-primary animate-bounce" />
         </div>
       </div>
