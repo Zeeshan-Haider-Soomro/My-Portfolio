@@ -63,7 +63,8 @@ const Form = () => {
         <MessageSquare className="absolute top-4 right-6 text-gray-400" size={20} />
       </div>
 
-      <Button className="flex items-center gap-x-1 max-w-[166px]" type="submit" disabled={loading}>
+     <div className="flex gap-12 items-center text-2xl">
+     <Button className="flex items-center gap-x-1 max-w-[166px]" type="submit" disabled={loading}>
         {loading ? "Sending..." : "Let's Talk"}
         <ArrowRightIcon size={20} />
       </Button>
@@ -73,6 +74,7 @@ const Form = () => {
 
       {/* ❌ Error Message */}
       {error && <p className="text-red-500 mt-2">{error}</p>}
+     </div>
     </form>
   );
 };
