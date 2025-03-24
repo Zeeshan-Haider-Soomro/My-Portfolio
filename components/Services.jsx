@@ -4,23 +4,18 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const servicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-        title: 'Web Design',
-        description: 'Passionate about building websites with a focus on intuitive design, usability, and responsive layouts. Designing clean, modern websites that combine aesthetics with functionality to engage visitors.'
+        title: 'Frontend Development',
+        description: `◾Responsive & user-friendly web applications\n ◾Expertise in React.js, Next.js, Tailwind CSS \n ◾Interactive UI/UX design`
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
-        title: 'Web Development',
-        description: 'Passionate about creating responsive and user-friendly websites that are both functional and visually appealing. Building websites with a focus on usability, performance, and a seamless user experience.'
+        title: 'MERN Stack Development (Learning & Building)',
+        description: '◾MongoDB, Express.js, React.js, Node.js\n ◾Full-stack web applications \n ◾API integration & database management'
     },
     {
         icon: <AppWindow size={72} strokeWidth={0.8} />,
-        title: 'App Development',
-        description: 'Providing reliable and creative app development services as I grow my skills and expertise in the field. Building simple, functional apps that focus on usability and seamless performance.'
-    },
-    {
-        icon: <GitGraphIcon size={72} strokeWidth={0.8} />,
-        title: 'Graphic Design ',
-        description: 'Providing fresh, modern designs for logos, social media, and branding to support your vision. Offering creative and affordable design solutions tailored to help your brand stand out. Excited to work with you and bring your ideas to life as I build my skills and experience in graphic design.'
+        title: 'Web Development',
+        description: '◾Modern, responsive, and User-friendly websites◾Custom web solutions using React.js & Next.js◾Clean, maintainable, and scalable code◾Pixel-perfect UI/UX design.'
     },
 ];
 
