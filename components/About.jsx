@@ -79,22 +79,55 @@ const skillData = [
         title: "skills",
         data:[
             {
-                name: "HTML, CSS",
+                name: "HTML5 + CSS3",
             },
             {
-                name: "JavaScript",
+                name: "JavaScript & ES6",
             },
             {
-                name: "React.js",
+                name: "Typescript(Learning)",
             },
             {
-                name: "Next.js",
+                name: "Tailwind & BootStrap (For Styling)",
             },
             {
-                name: "Front-End Web Developer",
+                name: "ShadCn & AntDesign (For Components)",
             },
             {
-                name: "Learning Back-End Developer",
+                name: "React JS (JavaScript library)",
+            },
+            {
+                name: "State Management (Context API,Redux Toolkit)",
+            },
+            {
+                name: "React Routing(React Router (SPA),Dynamic Routing)",
+            },
+            {
+                name: "React Hooks (useState,useEffect,useContext,useRef)",
+            },
+            {
+                name: "API Integration (Fetching Data–Fetch API, Axios)",
+            },
+            {
+                name: "Deployment (Vercel & Netlify)",
+            },
+            {
+                name: "Version Control (Git & GitHub)",
+            },
+            {
+                name: "FireBase (NoSQL database)",
+            },
+            {
+                name: "Next Js(Learning)",
+            },
+            {
+                name: "Node Js(Learning)",
+            },
+            {
+                name: "Express Js(Learning)",
+            },
+            {
+                name: "MongoDb(DataBase)",
             },
             {
                 name: "Adobe Illustrator",
@@ -103,7 +136,7 @@ const skillData = [
                 name: "Adobe PhotoShop",
             },
             {
-                name: "Graphic Designer",
+                name: "AI Tools Like:Gpt,Hostinger,Same.new etc",
             },
         ],
     },
@@ -262,10 +295,10 @@ const About = () => {
                                 <h4 className='text-xl font-semibold mb-2'>Skills</h4>
                                 <div className='border-b border-border mb-4'></div>
                                 {/* skill list  */}
-                                <div>
+                                <div className="overflow-y-scroll h-[200px]">
                                     {getData(skillData, 'skills').data.map((item,index)=>{
                                         const {name} = item
-                                        return <div className='w-2/4 text-center xl:text-left mx-auto ' key={index}>
+                                        return <div className='w-2/4 text-center xl:text-left mx-auto' key={index}>
                                             <div className='font-medium '>{`◾ ${name}`}</div>
                                         </div>
                                     })}

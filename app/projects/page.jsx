@@ -6,6 +6,14 @@ import ProjectCard from "@/components/ProjectCard"
 
 const projectData = [
   {
+    image: '/assets/work/e-Shop.png',
+    category: 'React.Js',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
+    name: "React Js Website",
+    link: 'https://e-shop-by-zhs.vercel.app/',
+    github: "https://github.com/Zeeshan-Haider-Soomro/e-Shop.git",
+  },
+  {
     image: '/assets/work/chawkbazarweb.png',
     category: 'React.Js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
